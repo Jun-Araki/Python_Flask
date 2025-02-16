@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block style %}
+.form-rate {
+    text-align: center;
+}
+.form-rate ul {
+    list-style-type: none;
+}
+
+.form-rate li {
+    display: inline;
+}
+{% endblock %}
+
+{% block content %}
+    <div class="display">
+      <div>
+        {{ user_name }} さんの評価したいレストランを教えてください。
+      </div>
+
+      <form action="{{ url_for('restaurant_rate') }}" method="post">
+        {{ form.restaurant }}
+          <div class="form-rate">
+            {{ form.rate }}
+          </div>
+        {{ form.user_name }}
+          <div>
+              <input type="submit" value="Submit">
+          </div>
+      </form>
+    </div>
+{% endblock %}

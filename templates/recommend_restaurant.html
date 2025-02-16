@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% block style %}
+.form-yes-or-no {
+    text-align: center;
+}
+.form-yes-or-no ul {
+    list-style-type: none;
+}
+
+.form-yes-or-no li {
+    display: inline;
+}
+{% endblock %}
+
+{% block content %}
+    <div class="display">
+      {{ user_name }}さんへ　おすすめのレストランの紹介です。
+
+      {% for restaurant in restaurants %}
+      <p>
+        {{ loop.index }} {{ restaurant }}
+      </p>
+      {% endfor %}
+
+      <div>
+        {{ user_name }} さんの知っているレストランの評価を教えてください。
+      </div>
+
+      <form action="{{ url_for('evaluate_yes_or_no') }}" method="post">
+        <div class="form-yes-or-no">
+        {{ form.value }}
+        </div>
+        {{ form.user_name }}
+        <div>
+          <input type="submit" value="Submit">
+        </div>
+      </form>
+    </div>
+{% endblock %}

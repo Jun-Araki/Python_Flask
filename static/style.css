@@ -1,0 +1,16 @@
+        body, input {
+            font-size: 30px;
+        }
+        div {
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+        div.display {
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        form {
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }

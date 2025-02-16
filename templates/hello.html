@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <div class="display">
+        こんにちは！私は{{ name }}です。あなたの名前はなんですか？
+        <br>
+        <form action="/" method="post">
+            <input type="text" name="user_name" size="30">
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+{% endblock %}
