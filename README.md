@@ -1,4 +1,7 @@
-# Python_Flask
+# 開発アプリ
+
+![Screen-Recording-2025-02-16-at-11.30.15 AM_1.gif](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2674841/cc67382b-c531-449a-92e3-0b697b1b7769.gif)
+
 # 概要
 Python（Flask）と機械学習を使用したフルスタック開発を実施。
 講師は酒井潤さんで、レストラン推薦アプリケーション「roboter2」の構築を行う。
@@ -43,12 +46,7 @@ www.amazon.co.jp/dp/4046057548
 1. コードのフォーマットの修正
 1. 最後に
 
-# 開発したアプリ
-# 動画
-
-![Screen-Recording-2025-02-16-at-11.30.15 AM_1.gif](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2674841/cc67382b-c531-449a-92e3-0b697b1b7769.gif)
-
-
+## 開発したアプリ
 # TOP画面
 ![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2674841/f69a1e9f-7ba8-4107-adf4-17e000219757.png)
 
